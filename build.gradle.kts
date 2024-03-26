@@ -20,6 +20,7 @@ dependencies {
 
 openApiGenerate {
     inputSpec.set("$rootDir/openapi/spec.yaml")
+    outputDir.set("$rootDir/build/generated")
     generatorName.set("kotlin")
     groupId = "ru.belov"
     id = "api"
